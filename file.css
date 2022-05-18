@@ -1,0 +1,61 @@
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sito {
+    background-color: rgba(0, 0, 0, 0.500);
+    margin: 50px;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+
+/* logo + titolo */
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    color: limegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* barra di navigazione */
+
+.nav {
+    text-align: center;
+    background-color: limegreen;
+    padding: 10px;
+}
+
+
+/* contenuto */
+
+.content {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.content .simbolo {
+    display: inline-block;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+}
+
+.content .monopattino {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.content div:last-child {
+    background-color: goldenrod;
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+}
